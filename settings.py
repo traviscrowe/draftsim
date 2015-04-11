@@ -81,7 +81,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'nflhc.urls'
+ROOT_URLCONF = 'draftsim.urls'
 
 TEMPLATE_DIRS = (
     'league/templates',
