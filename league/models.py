@@ -44,6 +44,8 @@ _ATTRIBUTE_CHOICES = (
 class Clock(models.Model):
   '''
   Clock model that controls the draft pick times.
+
+  App assumes there is only one Clock instance.
   '''
 
   # draft information
