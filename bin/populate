@@ -2,3 +2,5 @@
 
 bin/add_players --local --input-file data/nflhc/2017/draft_players/2017-draft_player.txt
 
+bin/add_picks --local --input-file data/nflhc/2017/draft_picks/2017-draft_picks.csv
+
