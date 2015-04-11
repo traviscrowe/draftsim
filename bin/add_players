@@ -1,15 +1,28 @@
 #! /usr/bin/python
 
+import argparse
 import sys
 
-sys.path.append('/home/cmbiwer/cfbhc/dev/tmp')
-sys.path.append('/home/cmbiwer/cfbhc/dev/tmp/nflhc')
+# parse command line
+parser = argparse.ArgumentParser(description='Add league to database.')
+parser.add_argument('--local', action='store_true',
+                   help='If local dev version.')
+parser.add_argument('--input-file', type=str,
+                   help='TXT file for players to add.')
+opts = parser.parse_args()
+
+# add path if run local
+if opts.local:
+    sys.path.append('/home/cmbiwer/cfbhc/dev/tmp')
+    sys.path.append('/home/cmbiwer/cfbhc/dev/tmp/draftsim')
 
 from league.models import Player
 
+# delete all players in the database
 Player.objects.all().delete()
 
-fp = open('resources/2016-players.txt', 'r')
+# read input file
+fp = open(opts.input_file, 'r')
 lines = fp.readlines()
 fp.close()
 for line in lines:
@@ -25,10 +38,11 @@ for line in lines:
   tmp = line.split('[')[0]
   tmp = tmp.split()
   for t in tmp:
+
+    # if height is in feet-inches format convert to inches
     if '-' in t and t.split('-')[0].isdigit() and t.split('-')[1].isdigit():
       height = 12 * int(t.split('-')[0]) + int(t.split('-')[1])
       i = tmp.index(t)
-      print 't', t
       break
 
   # get surname
@@ -59,16 +73,7 @@ for line in lines:
   # get skill
   skill = line.split()[-1]
 
-  print line
-  print position
-  print forename
-  print surname
-  print height
-  print weight
-  print college
-  print attribute
-  print skill
-
+  # create player
   args = {}
   args['slug'] = position.lower() + '-' + forename.replace(' ', '-').lower() + '-' + surname.replace(' ', '-').lower() + '-' + skill
   args['position'] = position
@@ -80,5 +85,7 @@ for line in lines:
   args['attribute'] = attribute
   args['skill'] = skill
   player = Player(**args)
+ 
+  # save player
   player.save()
  

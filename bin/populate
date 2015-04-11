@@ -1,0 +1,4 @@
+#! /bin/bash
+
+bin/add_players --local --input-file data/nflhc/2017/draft_players/2017-draft_player.txt
+
