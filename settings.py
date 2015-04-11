@@ -49,8 +49,7 @@ USE_L10N = True
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = '/home/cmbiwer/lax/starbuck/site/media/'
-#MEDIA_ROOT = '/home/cmbiwer/cfbhc/dev/tmp/nflhc/league/media/'
+MEDIA_ROOT = '/home/cmbiwer/cfbhc/dev/tmp/draftsim/league/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
