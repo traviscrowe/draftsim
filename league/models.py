@@ -139,9 +139,9 @@ class Pick(models.Model):
   '''
 
   # pick information
-  draft_round = models.CharField(max_length=10)
+  draft_round = models.IntegerField(max_length=2)
   number = models.IntegerField(max_length=3)
   team = models.ForeignKey('Team', blank=True, null=True)
   player = models.ForeignKey('Player', blank=True, null=True)
-
+  compensation_pick = models.BooleanField(default=False)
 
