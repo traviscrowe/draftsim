@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Title -->
+<h1 class="page-header">
+    Draft Picks
+    <small>2017</small>
+</h1>
+
+<!-- Table -->
+<table data-toggle="table"
+       data-sort-name="skill"
+       data-sort-order="desc">
+    <thead>
+    <tr>
+        <th>
+                Round
+        </th>
+        <th>
+                Pick
+        </th>
+        <th>
+                Team
+        </th>
+        <th>
+                Player
+        </th>
+        <th>
+                College
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for pick in picks %}
+        <tr>
+            <td>{{pick.draft_round}}</td>
+            <td>{{pick.number}}</td>
+            <td>{{pick.team.name}}</td>
+            <td>{{pick.player.position}} {{pick.player.surname}}</td>
+            <td>{{pick.player.college}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

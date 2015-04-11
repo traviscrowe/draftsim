@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Title -->
+<h1 class="page-header">
+    {{position_verbose}}
+    <small>{{position}}</small>
+</h1>
+
+<p><i>The table may be sorted by height, weight, or skill.</i></p>
+
+<!-- Table -->
+<table data-toggle="table"
+       data-sort-name="skill"
+       data-sort-order="desc">
+    <thead>
+    <tr>
+        <th>
+                Team
+        </th>
+        <th>
+                Name
+        </th>
+        <th data-sortable="true">
+                Height
+        </th>
+        <th data-sortable="true">
+                Weight
+        </th>
+        <th>
+                College
+        </th>
+        <th data-field='skill'
+            data-sortable="true">
+                Skill
+        </th>
+        <th>
+                Attribute
+        </th>
+        <th>
+                40-YRD
+        </th>
+        <th>
+                VERT
+        </th>
+        <th>
+                BROAD
+        </th>
+        <th>
+                BENCH
+        </th>
+        <th>
+                SHUT
+        </th>
+        <th>
+                CONE
+        </th>
+        <th>
+                KICK
+        </th>
+        <th>
+                WOND
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for player in players %}
+        <tr>
+            <td>{% if player.team %}{{player.team.name}}{% else %}<a href="#" class="btn btn-danger" role="button">Draft</a>{% endif %}</td>
+            <td>{{player.forename}} {{player.surname}}</td>
+            <td>{{player.height}}</td>
+            <td>{{player.weight}}</td>
+            <td>{{player.college}}</td>
+            <td>{{player.skill}}</td>
+            <td>{{player.attribute}}</td>
+            <td>{% if player.dash_40 %}{{player.dash_40}}{% else %}-{% endif %}</td>
+            <td>{% if player.vertical_leap %}{{player.vertical_leap}}{% else %}-{% endif %}</td>
+            <td>{% if player.borad_jump %}{{player.board_jump}}{% else %}-{% endif %}</td>
+            <td>{% if player.bench_press %}{{player.bench_press}}{% else %}-{% endif %}</td>
+            <td>{% if player.shuttle %}{{player.shuttle}}{% else %}-{% endif %}</td>
+            <td>{% if player.cone %}{{player.cone}}{% else %}-{% endif %}</td>
+            <td>{% if player.kicking %}{{player.kicking}}{% else %}-{% endif %}</td>
+            <td>{% if player.wonderlic %}{{player.wonderlic}}{% else %}-{% endif %}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NFLHC Draft 2017</title>
+
+    <!-- Custom CSS -->
+    <link href="/static/css/blog-home.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.6.0/bootstrap-table.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.6.0/bootstrap-table.min.js"></script>
+
+    <!-- Latest compiled and minified Locales -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.6.0/locale/bootstrap-table-zh-CN.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="container">
+                <div class="row">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/draft-picks/">Draft Picks</a>
+                    </li>
+                    <li>
+                        <a href="#/">Trade Board</a>
+                    </li>
+                    <li>
+                        <a href="/position/qb/">QB</a>
+                    </li>
+                    <li>
+                        <a href="/position/rb/">RB</a>
+                    </li>
+                    <li>
+                        <a href="/position/fb/">FB</a>
+                    </li>
+                    <li>
+                        <a href="/position/wr/">WR</a>
+                    </li>
+                    <li>
+                        <a href="/position/te/">TE</a>
+                    </li>
+                    <li>
+                        <a href="/position/ot/">OT</a>
+                    </li>
+                    <li>
+                        <a href="/position/og/">OG</a>
+                    </li>
+                    <li>
+                        <a href="/position/c/">C</a>
+                    </li>
+                    <li>
+                        <a href="/position/de/">DE</a>
+                    </li>
+                    <li>
+                        <a href="/position/dt/">DT</a>
+                    </li>
+                    <li>
+                        <a href="/position/olb/">OLB</a>
+                    </li>
+                    <li>
+                        <a href="/position/ilb/">ILB</a>
+                    </li>
+                    <li>
+                        <a href="/position/cb/">CB</a>
+                    </li>
+                    <li>
+                        <a href="/position/fs/">FS</a>
+                    </li>
+                    <li>
+                        <a href="/position/ss/">SS</a>
+                    </li>
+                    <li>
+                        <a href="/position/k/">K</a>
+                    </li>
+                    <li>
+                        <a href="/position/p/">P</a>
+                    </li>
+                </ul>
+                  </div>
+                  <div class="row" style="color:#FFFFFF">
+                        <p><span class="glyphicon glyphicon-time" aria-hidden="true"></span> {{clock.render}}</p>
+                  </div>
+               </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-lg-20">
+
+                {% block content %}{% endblock %}
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>NFLHC Draft 2017</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="/static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
