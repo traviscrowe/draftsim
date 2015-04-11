@@ -4,7 +4,7 @@ import argparse
 import sys
 
 # parse command line
-parser = argparse.ArgumentParser(description='Add league to database.')
+parser = argparse.ArgumentParser(description='Add players to database.')
 parser.add_argument('--local', action='store_true',
                    help='If local dev version.')
 parser.add_argument('--input-file', type=str,

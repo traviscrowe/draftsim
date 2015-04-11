@@ -1,10 +1,21 @@
 #! /usr/bin/python
 
+import argparse
 import sys
 from datetime import datetime
 
-sys.path.append('/home/cmbiwer/cfbhc/dev/tmp')
-sys.path.append('/home/cmbiwer/cfbhc/dev/tmp/nflhc')
+# parse command line
+parser = argparse.ArgumentParser(description='Add draft picks to database.')
+parser.add_argument('--local', action='store_true',
+                   help='If local dev version.')
+parser.add_argument('--input-file', type=str,
+                   help='CSV file for picks to add.')
+opts = parser.parse_args()
+
+# add path if run local
+if opts.local:
+    sys.path.append('/home/cmbiwer/cfbhc/dev/tmp')
+    sys.path.append('/home/cmbiwer/cfbhc/dev/tmp/draftsim')
 
 from league.models import Clock, Team, Pick
 
