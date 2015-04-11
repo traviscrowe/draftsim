@@ -45,28 +45,22 @@ class Clock(models.Model):
   '''
   Clock model that controls the draft pick times.
   '''
+
+  # draft information
+  active = models.BooleanField(default=False)
+
   # pick information
   current_pick = models.ForeignKey('Pick')
-  current_start_time = models.DateTimeField()
+  current_start_time = models.IntegerField(max_length=100)
 
   def render(self):
     '''
-    Displays upcoming pick and clock.
+    Displays upcoming pick and time left on the clock.
     '''
 
     # get clock
-    clock = Clock.objects.all()[0]
-
-    # get time length for pick
-    pick_time = 300
-
-    # get time now
-    now = datetime.now()
-
-    # subtract to get time left
-    delta_t = now - clock.current_start_time
-    seconds_passed = delta_t.seconds
-    seconds_left = pick_time - seconds_passed
+    clock = Clock.objects.get(pk=1)
+    seconds_left = 32
 
     # get on deck picks
     current_pick = clock.current_pick
@@ -76,6 +70,7 @@ class Clock(models.Model):
     deck_4_pick = Pick.objects.get(number=clock.current_pick.number+4)
     deck_5_pick = Pick.objects.get(number=clock.current_pick.number+5)
 
+    # create string
     args = {'current_pick' : current_pick,
             'deck_1_pick'  : deck_1_pick,
             'deck_2_pick'  : deck_2_pick,
@@ -83,13 +78,10 @@ class Clock(models.Model):
             'deck_4_pick'  : deck_4_pick,
             'deck_5_pick'  : deck_5_pick,
             'seconds_left' : seconds_left}
-
-    # put in string
     string = """(#{current_pick.number}) {current_pick.team.name} is on the clock! There are {seconds_left} seconds left on the clock. On deck are (#{deck_1_pick.number}) {deck_1_pick.team.name}, (#{deck_2_pick.number}) {deck_2_pick.team.name}, (#{deck_3_pick.number}) {deck_3_pick.team.name}, (#{deck_4_pick.number}) {deck_4_pick.team.name}, and (#{deck_5_pick.number}) {deck_5_pick.team.name}.""".format(**args)
 
     # return
     return string
-
 
 class Team(models.Model):
   '''
@@ -117,6 +109,7 @@ class Player(models.Model):
   college = models.CharField(max_length=30)
   attribute = models.CharField(max_length=50, choices=_ATTRIBUTE_CHOICES)
   skill = models.IntegerField()
+
   # combine information
   dash_40 = models.FloatField(blank=True, null=True) 
   vertical_leap = models.FloatField(blank=True, null=True)

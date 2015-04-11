@@ -2,7 +2,6 @@
 
 import argparse
 import sys
-from datetime import datetime
 
 # parse command line
 parser = argparse.ArgumentParser(description='Add draft picks to database.')
@@ -57,7 +56,7 @@ for line in lines:
 
 # create clock
 pick = Pick.objects.get(number=1)
-time = datetime(year=2015, month=2, day=28, hour=10, minute=5, second=0)
+time = 60 * 5
 clock = Clock(current_pick=pick, current_start_time=time)
 
 # save clock
