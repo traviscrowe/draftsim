@@ -19,6 +19,7 @@ from league.models import Clock, Pick
 
 # initializations
 delta_t = 5
+seconds_left = 5 * 60
 
 # get clock
 clock = Clock.objects.get(pk=1)
@@ -34,9 +35,24 @@ while clock.seconds_left:
     # decrement seconds left
     time.sleep(delta_t)
     clock.seconds_left -= delta_t
-
-    # save clock
     clock.save()
+
+    # check if player was drafted
+    # FIXME: seconds left should be a dict with round number as key
+    if clock.current_pick.player:
+        print clock.current_pick.player
+        clock.current_pick = Pick.objects.get(number=clock.current_pick.number+1)
+        clock.seconds_left = seconds_left
+        clock.save()
+        continue
+
+    # check if time has run out
+    # FIXME: seconds left should be a dict with round number as key
+    if clock.seconds_left <= 0:
+        clock.current_pick = Pick.objects.get(number=clock.current_pick.number+1)
+        clock.seconds_left = seconds_left
+        clock.save()
+        continue
 
     # print statement
     print clock.current_pick.draft_round, clock.current_pick.number, clock.current_pick.team.name, clock.seconds_left
