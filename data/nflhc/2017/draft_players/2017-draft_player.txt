@@ -1,0 +1,362 @@
+QB Bernard Gbaja-Biamila 6-5 224 R Georgia [Pocket] 65
+QB Harold Simmons 6-1 180 R Notre Dame [Pocket] 80
+QB Brett Bowlin 5-11 205 R Boise State [Pocket] 76
+QB Erik Wegert 6-4 218 R Wisconsin [Pocket] 81
+QB Jasen Broadnax 6-0 196 R Oregon [Scrambling] 75
+QB Jimmy Starks 6-1 210 R Ole Miss [Pocket] 74
+QB C.J. Logan 6-2 183 R Clemson [Pocket] 70
+QB Glenn White 6-2 176 R Texas Tech [Pocket] 70
+QB James Francisco 6-1 177 R Rutgers [Pocket] 75
+QB Todd Lester 6-0 194 R California [Scrambling] 82
+QB Ryan Clark 6-1 187 R Oregon State [Scrambling] 80
+QB Taylor Heiden 6-3 197 R Arkansas [Scrambling] 76
+QB Aaron Devereaux 6-6 204 R LSU [Pocket] 82
+QB Sean Hadnot 6-5 217 R Alabama [Pocket] 80
+RB Michael Duckworth 5-10 179 R Michigan State [Speed] 76
+RB Brian Houghton 5-8 190 R Georgia [Power] 72
+RB Greg Hadnot 5-9 192 R Oklahoma [Power] 79
+RB Akili Wallace 5-10 180 R Florida State [Speed] 83
+RB Rasheed Kent 6-1 205 R Minnesota [Power] 74
+RB Robert Fontenot 5-11 171 R Baylor [Power] 66
+RB Sterling Brown 6-0 174 R Texas [Power] 83
+RB Dontrell Jackson 5-10 192 R Boise State [Speed] 71
+RB Don Anderson 5-10 195 R Tennessee [Power] 67
+RB Rickie Edwards 6-1 176 R SMU [Power] 67
+RB Fred Tindale 5-11 204 R Florida [Speed] 81
+RB Lynn Bartkowski 6-0 192 R Miami [Speed] 76
+RB Dick Lilly 5-11 199 R Virginia Tech [Speed] 77
+RB Frank Bortz 5-9 202 R Oklahoma State [Power] 65
+RB Larry Craven 5-11 197 R Northwestern [Speed] 68
+RB Lionel Dickinson 6-0 194 R Auburn [Power] 76
+RB Rickie Baird 5-11 171 R Cincinnati [Speed] 79
+RB James Harris 5-9 198 R Oregon State [Speed] 69
+RB David Giammona 5-9 179 R UCLA [Power] 65
+RB Marcus Barry 6-0 193 R Ohio State [Power] 81
+RB Jerry Rambo 5-10 220 R USC [Speed] 80
+FB Darren Michael 6-1 243 R Penn State [Power] 67
+FB Frankie Elwood 6-2 232 R Colorado [Power] 64
+FB James Baum 6-1 215 R Michigan State [Power] 70
+FB Lorenzo Makovicka 5-11 211 R USC [Power] 70
+FB Edgerrin Petty 6-1 219 R Notre Dame [Power] 72
+FB Ian Smith 6-2 222 R Oklahoma [Speed] 67
+FB Dennis Stewart 6-1 219 R BYU [Power] 63
+FB Art Shaw 6-0 202 R Tennessee [Speed] 62
+FB Tom Edwards 5-11 211 R Florida [Power] 79
+FB Thomas Bell 5-11 228 R Texas Tech [Power] 62
+FB John Gastineau 5-11 230 R Auburn [Power] 77
+FB Billy Davis 6-2 218 R NC State [Power] 65
+FB Brian Gelbaugh 6-1 226 R California [Power] 72
+FB Victor Brunson 6-1 231 R Mississippi State [Power] 65
+WR Marvin White 6-4 184 R Ohio State [Speed] 78
+WR Marcus Banks 5-11 201 R Ohio State [Target] 76
+WR Robert Hunt 6-4 192 R Michigan State [Speed] 68
+WR Bob Standlee 6-6 163 R Georgia [Speed] 78
+WR Carlos Perez 6-5 169 R Pittsburgh [Target] 73
+WR Richard Frazier 5-8 181 R Iowa [Target] 81
+WR Billy Rodgers 6-1 164 R North Carolina [Target] 80
+WR Scott Vaughn 6-1 176 R North Carolina [Speed] 66
+WR Bud Farmer 6-3 195 R Florida State [Target] 65
+WR Rashad Simon 6-4 187 R Boise State [Target] 79
+WR Frank Weiss 6-4 173 R Boise State [Speed] 74
+WR Cap Christian 6-3 176 R Georgia Tech [Target] 81
+WR Glenn Franckowiak 6-0 201 R Nebraska [Target] 76
+WR Marion Reeder 5-11 210 R Nebraska [Target] 76
+WR Kenny Cross 6-1 179 R BYU [Speed] 69
+WR Orlando Bielski 5-11 181 R Arizona State [Speed] 66
+WR Terry Jones 6-3 196 R ECU [Target] 65
+WR Steve Alexander 6-6 184 R Florida [Target] 74
+WR Sam Hill 6-5 176 R Wake Forest [Speed] 65
+WR Juan Armstead 5-10 191 R Rutgers [Target] 64
+WR John Gross 6-6 185 R Miami [Speed] 77
+WR Drew Jackson 6-6 177 R Syracuse [Target] 69
+WR Christopher Johnson 6-1 173 R Virginia Tech [Speed] 74
+WR Charlie Paul 5-9 163 R Maryland [Target] 76
+WR Allama Banta 6-0 185 R Boston College [Target] 72
+WR Kevin Williams 6-0 165 R Boston College [Speed] 69
+WR Terry Cross 6-2 173 R Oklahoma State [Target] 69
+WR Jim Umenyiora 6-2 197 R NC State [Speed] 80
+WR David Wells 6-5 187 R Oregon State [Speed] 75
+WR Lee Lowe 6-6 180 R Utah [Speed] 74
+WR Joe Coleman 5-10 172 R Missouri [Target] 73
+WR Mosi Bartos 5-8 161 R Boston College [Speed] 82
+WR Kevin Branch 6-5 187 R Mississippi State [Speed] 80
+TE Jake Schmidt 6-6 235 R Ohio State [Run Blocking] 77
+TE Vince Shea 6-5 221 R Michigan State [Pass Blocking] 63
+TE Tony DeMarco 6-3 247 R TCU [Pass Blocking] 75
+TE Danny Patrick 6-5 223 R North Carolina [Pass Blocking] 82
+TE Nate Blue 6-2 239 R Notre Dame [Pass Blocking] 75
+TE Hugh Warren 6-6 229 R Oklahoma [Run Blocking] 74
+TE Ben Thomas 6-6 224 R Florida State [Pass Blocking] 80
+TE Nathan Taylor 6-3 232 R Texas [Run Blocking] 76
+TE Isaiah Davidson 6-6 247 R Boise State [Run Blocking] 75
+TE Anthony Fasani 6-6 222 R Nebraska [Pass Blocking] 78
+TE Robert Miller 6-3 231 R Nebraska [Pass Blocking] 68
+TE Doug Bosley 6-4 245 R Wisconsin [Run Blocking] 70
+TE James Chandler 6-6 254 R Kentucky [Pass Blocking] 71
+TE Richard Young 6-3 229 R Tennessee [Pass Blocking] 65
+TE Johnny Nutten 6-3 247 R Ole Miss [Run Blocking] 66
+TE Scott Brown 6-1 250 R Stanford [Pass Blocking] 75
+TE George Cox 6-6 243 R Louisville [Pass Blocking]  71
+TE Walter Lane 6-3 233 R LSU [Run Blocking] 68
+TE Monroe McCormack 6-5 225 R NC State [Pass Blocking] 63
+OT Clint Dyal 6-7 316 R Penn State [Run Blocking] 68
+OT Quinn Bouman 6-4 310 R Ohio State [Run Blocking] 81
+OT Matt Bogle 6-1 341 R Ohio State [Pass Blocking] 82
+OT Tee Shipkey 6-2 293 R Michigan [Pass Blocking] 65
+OT Blake Pile 6-5 311 R USC [Run Blocking] 82
+OT Kenyon Hendricks 6-7 285 R USC [Pass Blocking] 75
+OT Lloyd Cruz 6-3 280 R Houston [Pass Blocking] 66
+OT Rodney Todd 6-5 312 R Georgia [Pass Blocking] 72
+OT Frank Russell 6-5 344 R Georgia [Pass Blocking] 63
+OT Doug Saul 6-8 320 R North Carolina [Pass Blocking] 65
+OT Lonnie Woodruff 6-6 300 R Florida State [Run Blocking] 75
+OT Antoine Tracey 6-4 304 R Minnesota [Pass Blocking] 63
+OT Philip Rose 6-8 308 R Air Force [Run Blocking] 65
+OT Mike Ledbetter 6-1 313 R Georgia Tech [Run Blocking] 74
+OT Kevin Barker 6-8 314 R Georgia Tech [Pass Blocking] 69
+OT Barret Jennings 6-8 310 R Alabama [Pass Blocking] 66
+OT Alan Holmes 6-7 301 R Arizona [Pass Blocking] 79
+OT Joe Spilis 6-1 296 R Tennessee [Pass Blocking] 65
+OT Harold Johnson 6-0 296 R Florida [Pass Blocking] 77
+OT Nijrell Smith 6-4 346 R Miami [Pass Blocking] 76
+OT Thomas Donaldson 6-4 302 R Virginia Tech [Run Blocking] 74
+OT Bryan Green 6-3 312 R Virginia Tech [Run Blocking] 75
+OT Julian Sykes 6-6 307 R Boston College [Pass Blocking] 80
+OT Willie Carroll 6-6 335 R Boston College [Pass Blocking] 62
+OT Bob Adams 6-4 331 R West Virginia [Pass Blocking] 66
+OT Ricky Green 6-5 306 R Virginia [Pass Blocking] 64
+OT Tom Scott 6-4 300 R Auburn [Run Blocking] 74
+OT Simon Johnson 6-6 281 R Cincinnati [Pass Blocking] 71
+OT Walter Adair 6-1 310 R Army [Run Blocking] 80
+OT Gary DeLamielleure 6-5 303 R California [Pass Blocking] 61
+OT Donald Williams 6-1 292 R Oregon State [Pass Blocking] 64
+OT Tom McAfee 6-4 304 R UCLA [Pass Blocking] 72
+OT Jack Hall 6-8 318 R Utah [Run Blocking] 67
+OG Mike Rachal 6-8 326 R Ohio State [Pass Blocking] 66
+OG Robert Roaf 6-7 267 R Michigan State [Run Blocking] 80
+OG Tony Baxter 6-7 317 R USC [Run Blocking] 73
+OG Peter Greenwood 6-2 269 R Georgia [Pass Blocking] 71
+OG Will Parker 6-5 302 R Georgia [Run Blocking] 65
+OG Robert Thomas 6-4 279 R Kansas [Pass Blocking] 64
+OG Dwight Anderson 6-5 313 R Florida State [Run Blocking] 65
+OG Ronald Collins 6-8 299 R Minnesota [Run Blocking] 69
+OG Tony Jackson 6-1 295 R Minnesota [Pass Blocking] 71
+OG Bret Pate 6-3 310 R Texas [Pass Blocking] 80
+OG Zak Cole 6-0 301 R Alabama [Run Blocking] 78
+OG Trey Durrence 6-2 300 R Alabama [Pass Blocking] 73
+OG David Schlereth 6-4 298 R Wisconsin [Pass Blocking] 75
+OG Martin Castillo 6-1 282 R Arizona [Pass Blocking] 64
+OG Dave Young 6-4 296 R Oregon [Pass Blocking] 80
+OG Riley Vanover 6-8 285 R Tennessee [Run Blocking] 68
+OG Dick Dufek 6-5 274 R UCF [Pass Blocking] 65
+OG Kerwin McGeoghan 6-3 269 R Ole Miss [Pass Blocking] 70
+OG Pat Carthon 6-6 280 R Vanderbilt [Pass Blocking] 61
+OG Stacey Feeley 6-2 299 R Arizona State [Run Blocking] 64
+OG Jace Brown 6-6 270 R Florida [Pass Blocking] 83
+OG Jack Brown 6-1 299 R Florida [Pass Blocking] 73
+OG Charles Thompson 6-5 296 R Rutgers [Pass Blocking] 78
+OG Frank Carter 6-0 304 R Washington [Run Blocking] 66
+OG Barry Waterfield 6-7 284 R Syracuse [Run Blocking] 74
+OG LaMont Sheriff 6-7 298 R Virginia Tech [Pass Blocking] 82
+OG Sebastian Jones 6-8 291 R Auburn [Run Blocking] 66
+OG Jimmie Shelton 6-6 304 R Cincinnati [Run Blocking] 81
+OG Virgil Madison 6-6 293 R NC State [Pass Blocking] 78
+OG Mike Grant 6-2 322 R California [Pass Blocking] 69
+OG Jamie Shank 6-6 287 R UCLA [Run Blocking] 77
+OG Terrance Campbell 6-1 276 R Arkansas [Run Blocking] 73
+C Kevin Siemon 6-3 279 R Penn State [Run Blocking] 80
+C Kevin Powell 6-6 282 R Ohio State [Run Blocking] 65
+C John Hinton 6-2 298 R Michigan State [Pass Blocking] 78
+C Sid Henson 6-5 298 R USC [Run Blocking] 79
+C Arnold Smith 6-4 289 R Texas [Run Blocking] 74
+C Billy Brumm 6-8 307 R Georgia Tech [Run Blocking] 64
+C John Zatkoff 6-7 296 R Alabama [Pass Blocking] 81
+C Patrick Ena 6-5 306 R Texas A&M [Pass Blocking] 78
+C Dave Ramsey 6-5 279 R Arizona State [Run Blocking] 63
+C Jim Boso 6-6 286 R Miami [Pass Blocking] 74
+C James Irwin 6-2 291 R Iowa State [Pass Blocking] 65
+C Josh Hood 6-7 296 R NC State [Pass Blocking] 65
+DE Ulysses Smith 6-8 290 R Penn State [Run Stop] 80
+DE Kendrick Droughns 6-6 294 R Ohio State [Run Stop] 80
+DE Ron Rice 6-6 275 R Michigan [Pass Stop] 81
+DE Josh Kassulke 6-4 298 R Michigan [Pass Stop] 74
+DE Joe Lewis 6-1 295 R Georgia [Run Stop] 73
+DE Stephen Jones 6-8 271 R Pittsburgh [Run Stop] 64
+DE Lonzell Rentzel 6-8 265 R Florida State [Run Stop] 70
+DE Tony Shaw 6-6 280 R Florida State [Pass Stop] 73
+DE Jefferson Caldwell 6-3 292 R Baylor [Pass Stop] 65
+DE Curtis Lewis 6-8 283 R Texas [Pass Stop] 83
+DE Michael Tomlinson 6-2 284 R Air Force [Run Stop] 63
+DE Karim Brown 6-6 270 R Nebraska [Pass Stop] 69
+DE James Garcia 6-7 261 R Nebraska [Pass Stop] 62
+DE Ray McBride 6-6 275 R Alabama [Run Stop] 78
+DE Cody Fuller 6-6 266 R Arizona [Pass Stop] 67
+DE Grover Walker 6-4 259 R Kentucky [Pass Stop] 71
+DE Rex Bauer 6-4 287 R Tennessee [Pass Stop] 62
+DE Derrick Thomas 6-7 272 R Texas A&M [Pass Stop] 73
+DE Josh Swift 6-4 264 R Vanderbilt [Run Stop] 68
+DE E.J. McQuarters 6-7 257 R Clemson [Pass Stop] 70
+DE Alex Fulcher 6-2 268 R Clemson [Run Stop] 73
+DE Stacey Wulfeck 6-5 240 R Syracuse [Run Stop] 65
+DE Bill Young 6-4 291 R Virginia Tech [Run Stop] 80
+DE Billy Chambers 6-4 287 R Boston College [Pass Stop] 70
+DE Ted Pointer 6-0 278 R Virginia [Pass Stop] 63
+DE Claxton Robertson 6-6 275 R Auburn [Run Stop] 69
+DE Michael Morris 6-6 285 R California [Pass Stop] 71
+DE Billy Stevenson 6-7 259 R Utah [Run Stop] 78
+DE Arnold Smith 6-1 267 R Arkansas [Run Stop] 62
+DE Charley Long 6-1 238 R Hiwassee College [Pass Stop] 70
+DE Rickie Bradley 6-3 253 R Western Nebraska CC [Pass Stop] 73
+DE Charles Lewis 6-5 266 R Mississippi State [Pass Stop] 71
+DE Dennis Niland 6-4 281 R USC [Pass Stop] 82
+DT Lindsay Powell 6-8 270 R Penn State [Run Stop] 69
+DT Gregg Martin 6-6 274 R Ohio State [Run Stop] 79
+DT John Griffin 6-6 285 R USC [Pass Stop] 70
+DT Brad Mungro 6-6 284 R Minnesota [Pass Stop] 77
+DT Robert Mason 6-0 276 R Boise State [Run Stop] 62
+DT Francisco Caudill 6-4 279 R Arizona [Pass Stop] 68
+DT Morris Alexander 6-4 290 R Nebraska [Run Stop] 72
+DT Eric Young 6-6 276 R Purdue [Run Stop] 64
+DT Al Lindsey 6-1 296 R Washington State [Pass Stop] 74
+DT Jeremy Miller 6-1 304 R Texas Tech [Run Stop] 80
+DT Josh Wilson 6-7 278 R Texas Tech [Run Stop] 79
+DT William Robertson 6-3 291 R Rutgers [Run Stop] 75
+DT Antony Lowry 6-3 325 R Maryland [Pass Stop] 65
+DT Bam Gannon 6-6 300 R Virginia [Pass Stop] 65
+DT Travis Williams 6-5 270 R California [Pass Stop] 66
+DT Ira Adams 6-8 263 R UCLA [Run Stop] 71
+ILB Ron Sanderson 6-1 221 R Penn State [Pass Zone] 72
+ILB Art Mills 6-1 230 R Michigan [Pass Zone] 78
+ILB J.T. Holcomb 5-11 230 R Michigan [Run Man-to-Man] 77
+ILB Tom Henderson 6-0 234 R Iowa [Pass Zone] 81
+ILB Tim McDuffie 6-2 238 R Oklahoma [Pass Zone] 75
+ILB Timmy Flanigan 5-9 233 R Florida State [Pass Zone] 68
+ILB Curtis Hsu 6-2 218 R Baylor [Pass Man-to-Man] 65
+ILB Erik Rogers 6-1 233 R Boise State [Pass Man-to-Man] 71
+ILB Kelvin Grossman 6-0 231 R Nebraska [Run Zone] 78
+ILB Charles Washington 6-0 232 R Arizona [Run Zone] 62
+ILB Randy Humphreys 6-1 252 R Purdue [Pass Zone] 78
+ILB Hugo Miller 6-0 241 R Kentucky [Pass Zone] 75
+ILB Bryant Palmer 6-1 225 R Tennessee [Pass Man-to-Man] 73
+ILB Melvin Cooper 6-2 227 R Tennessee [Run Man-to-Man] 74
+ILB Ernest Cross 6-1 229 R Ole Miss [Pass Man-to-Man] 64
+ILB Steve Pointer 6-0 229 R Clemson [Run Zone] 79
+ILB James Hastings 6-2 246 R Florida [Pass Man-to-Man] 74
+ILB Tyrone Pena 6-2 229 R Northwestern [Run Zone] 68
+ILB Dan Miller 6-1 229 R Texas Tech [Pass Zone] 69
+ILB Billy Williams 6-1 240 R Rutgers [Run Man-to-Man] 74
+ILB Warren Tasker 6-2 224 R Syracuse [Pass Man-to-Man] 63
+ILB James Swartz 6-2 229 R Maryland [Pass Man-to-Man] 64
+ILB Willy Mitchell 6-2 225 R Boston College [Pass Man-to-Man] 66
+ILB Eric Jones 6-1 238 R LSU [Pass Man-to-Man] 75
+ILB Sylvester Feeley 6-1 227 R LSU [Pass Man-to-Man] 74
+ILB James Bates 6-1 217 R UCLA [Run Man-to-Man] 72
+ILB Omar Moore 6-0 228 R Arkansas [Run Man-to-Man] 66
+ILB Daleroy Smart 5-11 224 R Washington State [Run Man-to-Man] 80
+ILB Malcolm Douglas-Scott 6-0 239 R Angelina College [Pass Man-to-Man] 80
+ILB Cameron Jonah 6-1 243 R Hartnell College [Run Man-to-Man] 75
+OLB W.M. Mitchell 5-11 217 R Michigan [Pass Man-to-Man] 80
+OLB Bill Gehrke 5-11 241 R USC [Pass Zone] 78
+OLB Terry Hill 6-0 221 R Notre Dame [Pass Man-to-Man] 78
+OLB William Paulson 5-11 221 R Baylor [Run Zone] 63
+OLB Melvin Bedell 6-1 221 R Texas [Pass Zone] 68
+OLB Eddie Johnson 6-0 227 R Georgia Tech [Run Zone] 69
+OLB Michael Clark 6-2 225 R BYU [Run Man-to-Man] 70
+OLB Kyries Brown 6-0 227 R Wisconsin [Pass Man-to-Man] 68
+OLB Eugene Parker 6-2 234 R Arizona [Run Man-to-Man] 65
+OLB Todd Lord 6-0 240 R Purdue [Pass Zone] 68
+OLB Lloyd Gallagher 6-1 238 R Kentucky [Run Man-to-Man] 72
+OLB Todd Byers 6-2 251 R Tennessee [Run Man-to-Man] 71
+OLB Sam Gonzalez 6-1 216 R UCF [Run Man-to-Man] 73
+OLB Joe Palmer 6-1 242 R Ole Miss [Pass Man-to-Man] 79
+OLB Hugh Boerigter 6-2 251 R Stanford [Pass Man-to-Man] 76
+OLB Craig Davis 6-1 221 R Syracuse [Run Man-to-Man] 72
+OLB John Woodley 6-2 223 R Boston College [Pass Zone] 69
+OLB Garrison Jackson 6-1 226 R Oklahoma State [Pass Man-to-Man] 66
+OLB Chester Williams 6-2 219 R Auburn [Run Man-to-Man] 79
+OLB Charley Graham 5-11 224 R UCLA [Pass Man-to-Man] 72
+OLB David Kuppe 5-11 214 R Missouri [Pass Man-to-Man] 75
+OLB Kenyatta Henderson 5-11 228 R Ole Miss [Pass Man-to-Man] 81
+OLB Trent Haynes 6-1 228 R Tennessee [Run Zone] 80
+CB Kadeem Martin 5-9 175 R Penn State [Zone Coverage] 78
+CB DeAndre Hawkins 6-2 180 R Ohio State [Man Coverage] 81
+CB Keith Wells 6-2 177 R Michigan State [Zone Coverage] 76
+CB Antonio Burch 6-2 188 R Michigan [Man Coverage] 81
+CB Tony Fouts 6-0 166 R USC [Zone Coverage] 65
+CB Archie Velasquez 5-9 186 R Georgia [Man Coverage] 75
+CB Rufus Freeman 5-11 186 R Pittsburgh [Man Coverage] 66
+CB Ricky Rose 6-2 198 R Kansas [Zone Coverage] 70
+CB Gary Chamberlain 6-1 174 R Notre Dame [Man Coverage] 73
+CB Dale Denney 6-1 193 R Minnesota [Man Coverage] 65
+CB David Tierney 5-9 169 R Baylor [Zone Coverage] 72
+CB Adam Harris 6-1 183 R Air Force [Man Coverage] 70
+CB Matt Cowan 6-2 172 R Wisconsin [Zone Coverage] 82
+CB Reggie Griffin 5-10 192 R Tennessee [Zone Coverage] 76
+CB Sean Hawthorne 5-8 182 R Ole Miss [Zone Coverage] 71
+CB Steve Barrett 5-10 189 R Ole Miss [Man Coverage] 62
+CB Marques Warner 6-3 193 R Texas A&M [Man Coverage] 74
+CB Cade Donovan 5-11 172 R Washington State [Zone Coverage] 76
+CB Michael Bland 6-0 172 R Vanderbilt [Man Coverage] 67
+CB Justin Davis 5-11 173 R Florida [Zone Coverage] 82
+CB Billy Odom 6-0 190 R Texas Tech [Zone Coverage] 64
+CB Jamie Mixon 6-1 187 R Rutgers [Man Coverage] 75
+CB Moe McMillan 5-10 183 R Virginia Tech [Man Coverage] 79
+CB Jack Beattie 6-2 173 R Maryland [Man Coverage] 63
+CB John Rogers 6-1 197 R Boston College [Zone Coverage] 63
+CB Ben McCullum 5-11 200 R South Carolina [Zone Coverage] 63
+CB Corey Evans 6-2 181 R Oklahoma State [Zone Coverage] 64
+CB Oliver Yarbrough 6-1 171 R Kansas State [Zone Coverage] 70
+CB Tony Preston 5-10 166 R California [Man Coverage] 73
+CB Douglas Hernandez 6-2 175 R Oregon State [Zone Coverage] 62
+CB Tim Kassell 5-11 191 R UCLA [Man Coverage] 74
+CB Sammy Muhammad 5-10 178 R Missouri [Man Coverage] 80
+CB Isaiah Polsfoot 5-11 183 R Tyler Junior College [Zone Coverage] 79
+SS Pat Carpenter 6-1 174 R Ohio State [Man Coverage] 70
+SS Danny Steele 6-1 196 R Colorado [Zone Coverage] 67
+SS Matt Golic 6-0 189 R Pittsburgh [Man Coverage] 69
+SS George Neal 5-9 171 R Kansas [Zone Coverage] 68
+SS Taz Tomlinson 5-10 183 R Minnesota [Man Coverage] 72
+SS Warren McNabb 6-2 198 R Georgia Tech [Zone Coverage] 72
+SS Tavian Oliphant 6-2 202 R Alabama [Man Coverage] 81
+SS Glynn Massey 5-11 160 R Wisconsin [Zone Coverage] 64
+SS Joel Murphy 5-11 201 R Arizona [Zone Coverage] 72
+SS Darren Manning 6-4 189 R Tennessee [Zone Coverage] 81
+SS Frank Curran 6-1 200 R Ole Miss [Man Coverage] 70
+SS Billy Lowe 5-10 172 R Miami [Man Coverage] 63
+SS Kliff Papac 6-0 161 R Syracuse [Zone Coverage] 76
+SS Bernie Ware 6-2 174 R NC State [Man Coverage] 66
+SS Matt Demaree 6-2 179 R UCLA [Man Coverage] 66
+SS Gerald Foreman 5-10 167 R Missouri [Man Coverage] 64
+FS Terry Ross 6-2 168 R Michigan [Man Coverage] 68
+FS Robert Cash 6-1 196 R Boise State [Zone Coverage] 66
+FS Leonard Tice 5-11 178 R Nebraska [Zone Coverage] 74
+FS Gray Corbin 5-11 159 R Nebraska [Zone Coverage] 80
+FS Mike Henderson 5-10 193 R UCF [Man Coverage] 75
+FS Roy Brown 5-9 160 R Washington State [Zone Coverage] 63
+FS James Ponder 5-10 183 R Florida [Zone Coverage] 66
+FS Reynaldo Harris 5-9 174 R Miami [Man Coverage] 76
+FS Charles Lopez 5-11 213 R Iowa State [Zone Coverage] 64
+FS James Delarosa 6-0 183 R Oregon State [Zone Coverage] 68
+FS Robert Garrett 6-0 206 R Utah [Zone Coverage] 63
+FS Robert Wozniak 6-2 200 R Arkansas [Zone Coverage] 70
+FS Chris Bengtson 6-1 193 R Daytona Beach CC [Man Coverage] 73
+K Vincenzo Aiola 6-1 175 R TCU [Power] 67
+K Skip Gibson 6-0 178 R Georgia [Accuracy] 81
+K Lew Roberg 6-0 177 R North Carolina [Power] 70
+K Paul Compton 5-9 178 R Boise State [Accuracy] 65
+K Ryan Levcik 5-9 177 R Alabama [Power] 80
+K Greg Duper 6-0 171 R Clemson [Power] 74
+K Jermaine Gooch 6-3 173 R Wake Forest [Power] 63
+K Nathan Vazquez 5-9 168 R Maryland [Power] 70
+K Patrick O'Neil 6-1 201 R Virginia [Accuracy] 68
+P John Maslowski 5-8 203 R USC [Accuracy] 80
+P Steve Smith 6-4 169 R Oklahoma [Power] 80
+P Dwayne Brightful 5-10 183 R Georgia Tech [Accuracy] 66
+P Cliff Batch 6-3 176 R Alabama [Accuracy] 70
+P Elvin Johnson 5-10 192 R Wisconsin [Power] 79
+P Daniel Brown 6-2 204 R Texas A&M [Accuracy] 67
+P Bernard Kovac 5-11 198 R Washington [Accuracy] 62
+P Greg Bradley 5-11 196 R Boston College [Accuracy] 65
+P Jim Brown 6-0 165 R Auburn [Power] 80
+P Sylvester Word 6-3 192 R Missouri [Power] 80
+P Dan Hamilton 6-0 198 R Mississippi State [Accuracy] 78
