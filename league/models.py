@@ -121,6 +121,11 @@ class Player(models.Model):
   kicking = models.CharField(max_length=2, blank=True, null=True)
   wonderlic = models.IntegerField(max_length=2, blank=True, null=True)
 
+  def __unicode__(self):
+      return ' '.join(map(str, [self.position, self.forename, self.surname,
+                                self.height, self.weight, 'R', self.college,
+                                '['+self.attribute+']', self.skill]))
+
 class Pick(models.Model):
   '''
   Handles owner and player of draft picks.

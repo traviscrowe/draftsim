@@ -25,9 +25,6 @@
         <th>
                 Player
         </th>
-        <th>
-                College
-        </th>
     </tr>
     </thead>
     <tbody>
@@ -36,8 +33,7 @@
             <td>{{pick.draft_round}}</td>
             <td>{{pick.number}}</td>
             <td>{{pick.team.name}}</td>
-            <td>{{pick.player.position}} {{pick.player.surname}}</td>
-            <td>{{pick.player.college}}</td>
+            <td>{%if pick.player %}{{pick.player}}{% endif %}</td>
         </tr>
         {% endfor %}
     </tbody>
