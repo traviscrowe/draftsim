@@ -51,7 +51,7 @@ class Clock(models.Model):
 
   # pick information
   current_pick = models.ForeignKey('Pick')
-  current_start_time = models.IntegerField(max_length=100)
+  seconds_left = models.IntegerField(max_length=100)
 
   def render(self):
     '''
@@ -60,7 +60,7 @@ class Clock(models.Model):
 
     # get clock
     clock = Clock.objects.get(pk=1)
-    seconds_left = clock.current_start_time
+    seconds_left = clock.seconds_left
 
     # get on deck picks
     current_pick = clock.current_pick

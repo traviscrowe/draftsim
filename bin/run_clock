@@ -1,0 +1,42 @@
+#! /usr/bin/python
+
+import argparse
+import sys
+import time
+
+# parse command line
+parser = argparse.ArgumentParser(description='Add players to database.')
+parser.add_argument('--local', action='store_true',
+                   help='If local dev version.')
+opts = parser.parse_args()
+
+# add path if run local
+if opts.local:
+    sys.path.append('/home/cmbiwer/cfbhc/dev/tmp')
+    sys.path.append('/home/cmbiwer/cfbhc/dev/tmp/draftsim')
+
+from league.models import Clock, Pick
+
+# initializations
+delta_t = 5
+
+# get clock
+clock = Clock.objects.get(pk=1)
+
+# sanity check current pick
+if clock.current_pick.player:
+    print 'Current pick already has a player selected!'
+    sys.exit()
+
+# loop over seconds left in pick
+while clock.seconds_left:
+
+    # decrement seconds left
+    time.sleep(delta_t)
+    clock.seconds_left -= delta_t
+
+    # save clock
+    clock.save()
+
+    # print statement
+    print clock.current_pick.draft_round, clock.current_pick.number, clock.current_pick.team.name, clock.seconds_left

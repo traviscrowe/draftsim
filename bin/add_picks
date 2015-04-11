@@ -56,8 +56,8 @@ for line in lines:
 
 # create clock
 pick = Pick.objects.get(number=1)
-time = 60 * 5
-clock = Clock(current_pick=pick, current_start_time=time)
+seconds_left = 60 * 5
+clock = Clock(current_pick=pick, seconds_left=seconds_left)
 
 # save clock
 clock.save() 
