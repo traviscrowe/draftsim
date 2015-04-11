@@ -15,7 +15,7 @@ from league.models import Clock, Player, Pick
 def HomePage(request):
 
   # get clock
-  clock = Clock.objects.all()[0]
+  clock = Clock.objects.get(pk=1)
 
   # render
   context = {'clock' : clock}
@@ -25,11 +25,14 @@ def HomePage(request):
 def PositionPage(request, position):
 
   # get clock
-  clock = Clock.objects.all()[0]
+  clock = Clock.objects.get(pk=1)
 
+  # get position and find verbose name of position
+  # FIXME: can be done faster than iterating a list
   position         = position.upper()
   position_verbose = [x[1] for x in _POSITION_CHOICES if x[0] == position][0]
 
+  # get players for this position
   players = Player.objects.filter(position=position)
 
   # render
@@ -43,8 +46,9 @@ def PositionPage(request, position):
 def DraftPicksPage(request):
 
   # get clock
-  clock = Clock.objects.all()[0]
+  clock = Clock.objects.get(pk=1)
 
+  # get picks
   picks = Pick.objects.all()
 
   # render
