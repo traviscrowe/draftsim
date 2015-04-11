@@ -65,25 +65,32 @@ class Clock(models.Model):
     seconds_left = clock.seconds_left
 
     # get on deck picks
+    # FIXME: this whole section can be done more elegantly
     current_pick = clock.current_pick
-    deck_1_pick = Pick.objects.get(number=clock.current_pick.number+1)
-    deck_2_pick = Pick.objects.get(number=clock.current_pick.number+2)
-    deck_3_pick = Pick.objects.get(number=clock.current_pick.number+3)
-    deck_4_pick = Pick.objects.get(number=clock.current_pick.number+4)
-    deck_5_pick = Pick.objects.get(number=clock.current_pick.number+5)
+    deck_1_pick = Pick.objects.filter(number=clock.current_pick.number+1)
+    deck_2_pick = Pick.objects.filter(number=clock.current_pick.number+2)
+    deck_3_pick = Pick.objects.filter(number=clock.current_pick.number+3)
+    deck_4_pick = Pick.objects.filter(number=clock.current_pick.number+4)
+    deck_5_pick = Pick.objects.filter(number=clock.current_pick.number+5)
 
     # create string
     args = {'current_pick' : current_pick,
-            'deck_1_pick'  : deck_1_pick,
-            'deck_2_pick'  : deck_2_pick,
-            'deck_3_pick'  : deck_3_pick,
-            'deck_4_pick'  : deck_4_pick,
-            'deck_5_pick'  : deck_5_pick,
             'seconds_left' : seconds_left}
-    string = """(#{current_pick.number}) {current_pick.team.name} is on the clock! There are {seconds_left} seconds left on the clock. On deck are (#{deck_1_pick.number}) {deck_1_pick.team.name}, (#{deck_2_pick.number}) {deck_2_pick.team.name}, (#{deck_3_pick.number}) {deck_3_pick.team.name}, (#{deck_4_pick.number}) {deck_4_pick.team.name}, and (#{deck_5_pick.number}) {deck_5_pick.team.name}.""".format(**args)
+    string1 = """(#{current_pick.number}) {current_pick.team.name} is on the clock! There are {seconds_left} seconds left on the clock.""".format(**args)
+
+    string2 = "On deck are:"
+    string_list = []
+    for query in [deck_1_pick, deck_2_pick, deck_3_pick, deck_4_pick, deck_5_pick]:
+
+        if len(query):
+            pick = query[0]
+            args = {"pick_number" : pick.number,
+                    "team_name" : pick.team.name}
+            string_list.append("""(#{pick_number}) {team_name}""".format(**args))
+    string2 += ' ' + ', '.join(string_list)
 
     # return
-    return string
+    return string1 + ' ' + string2
 
 class Team(models.Model):
   '''
