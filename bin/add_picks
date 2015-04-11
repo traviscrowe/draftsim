@@ -27,11 +27,11 @@ Pick.objects.all().delete()
 # create teams
 teamabbr_list = ['NYJ', 'BUF', 'NE', 'MIA', 'GB', 'MIN', 'DET', 'CHI', 'NO', 'CAR', 'TB', 'ATL', 'JAX', 'IND', 'HOU', 'TEN']
 for teamabbr in teamabbr_list:
-  args = {}
-  args['slug'] = teamabbr.lower()
-  args['name'] = teamabbr
-  team = Team(**args)
-  team.save()
+    args = {}
+    args['slug'] = teamabbr.lower()
+    args['name'] = teamabbr
+    team = Team(**args)
+    team.save()
 
 # read input file
 fp = open(opts.input_file, 'r')
@@ -41,19 +41,19 @@ fp.close()
 # loop over lines in input file
 for line in lines:
 
-  # parse comma-seperated line
-  args = {}
-  line = line.rstrip('\n').split(',')
+    # parse comma-seperated line
+    args = {}
+    line = line.rstrip('\n').split(',')
 
-  # create draft pick
-  args = {}
-  args['draft_round'] = line[0]
-  args['number'] = int(line[1])
-  args['team'] = Team.objects.get(name=line[2])
-  pick = Pick(**args)
+    # create draft pick
+    args = {}
+    args['draft_round'] = line[0]
+    args['number'] = int(line[1])
+    args['team'] = Team.objects.get(name=line[2])
+    pick = Pick(**args)
 
-  # save pick
-  pick.save()
+    # save pick
+    pick.save()
 
 # create clock
 pick = Pick.objects.get(number=1)
