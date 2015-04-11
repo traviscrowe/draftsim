@@ -60,7 +60,7 @@ class Clock(models.Model):
 
     # get clock
     clock = Clock.objects.get(pk=1)
-    seconds_left = 32
+    seconds_left = clock.current_start_time
 
     # get on deck picks
     current_pick = clock.current_pick
