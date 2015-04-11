@@ -30,7 +30,7 @@
     <tbody>
         {% for pick in picks %}
         <tr>
-            <td>{{pick.draft_round}}</td>
+            <td>{{pick.draft_round}} {% if pick.compensation_pick %}(Compensation Pick){% endif %}</td>
             <td>{{pick.number}}</td>
             <td>{{pick.team.name}}</td>
             <td>{%if pick.player %}{{pick.player}}{% endif %}</td>
